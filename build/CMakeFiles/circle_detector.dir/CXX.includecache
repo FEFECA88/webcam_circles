@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/felipe/webcam_circles/src/circle_detector.cpp
+opencv2/opencv.hpp
+/home/felipe/webcam_circles/src/opencv2/opencv.hpp
+opencv2/core.hpp
+/home/felipe/webcam_circles/src/opencv2/core.hpp
+opencv2/imgproc.hpp
+/home/felipe/webcam_circles/src/opencv2/imgproc.hpp
+iostream
+-
+cstdlib
+-
+vector
+-
+

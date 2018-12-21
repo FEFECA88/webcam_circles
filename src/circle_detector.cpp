@@ -85,7 +85,7 @@ int main(int argc, char *argv[])
             {
                     center = cv::Point(cvRound(circles[ii][0]), cvRound(circles[ii][1]));
                     radius = cvRound(circles[ii][2]);
-                    cv::circle(image, center, 5, cv::Scalar(0,0,255), -1, 8, 0 );// circle center in green
+                    cv::circle(image, center, 5, cv::Scalar(0,255,255), -1, 8, 0 );// circle center in green
                     cv::circle(image, center, radius, cv::Scalar(0,0,255), 3, 8, 0 );// circle perimeter in red
             }
         }
